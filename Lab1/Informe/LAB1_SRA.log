@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.23)  2 DEC 2023 03:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.23)  2 DEC 2023 10:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -611,10 +611,17 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks39
 \@floatcapt=\box66
 )
+(C:\Users\Mauricio\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.st
+y
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip62
+\multirow@cntb=\count305
+\multirow@dima=\skip63
+\bigstrutjot=\dimen269
+)
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-36.
-
-(C:\Users\Mauricio\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmss.fd
+37.
+ (C:\Users\Mauricio\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 (LAB1_SRA.aux (portada.aux)
@@ -623,36 +630,36 @@ LaTeX Info: Redefining \% on input line 9.
  (intro.aux) (circuito1.aux) (circuito2.aux))
 \openout1 = `LAB1_SRA.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Info: Redefining \. on input line 36.
-LaTeX Info: Redefining \% on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Info: Redefining \. on input line 37.
+LaTeX Info: Redefining \% on input line 37.
 
 (C:\Users\Mauricio\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf
 .mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count305
-\scratchdimen=\dimen269
+\scratchcounter=\count306
+\scratchdimen=\dimen270
 \scratchbox=\box67
-\nofMPsegments=\count306
-\nofMParguments=\count307
+\nofMPsegments=\count307
+\nofMParguments=\count308
 \everyMPshowfont=\toks40
-\MPscratchCnt=\count308
-\MPscratchDim=\dimen270
-\MPnumerator=\count309
-\makeMPintoPDFobject=\count310
+\MPscratchCnt=\count309
+\MPscratchDim=\dimen271
+\MPnumerator=\count310
+\makeMPintoPDFobject=\count311
 \everyMPtoPDFconversion=\toks41
 )
 (C:\Users\Mauricio\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopd
@@ -838,7 +845,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 File: figuras/color_UNC-FCEFyN.png Graphic file (type png)
 <use figuras/color_UNC-FCEFyN.png>
-Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 41.
+Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 42.
 (pdftex.def)             Requested size: 204.85846pt x 33.25264pt.
 
 [1
@@ -852,7 +859,7 @@ nc}]
  (intro.tex)
 File: figuras/color_UNC-FCEFyN.png Graphic file (type png)
 <use figuras/color_UNC-FCEFyN.png>
-Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 43.
+Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 44.
 (pdftex.def)             Requested size: 204.85846pt x 33.25264pt.
  [2
 
@@ -935,7 +942,7 @@ Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 141.
  [7 <./figuras/Sim_Modo_Diferencial.png> <./figuras/Sim_Modo_Comun.png>])
 File: figuras/color_UNC-FCEFyN.png Graphic file (type png)
 <use figuras/color_UNC-FCEFyN.png>
-Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 44.
+Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 45.
 (pdftex.def)             Requested size: 204.85846pt x 33.25264pt.
  [8 <./figuras/lab1_freq.png>]
 \openout2 = `circuito2.aux'.
@@ -972,7 +979,7 @@ Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 151.
  [11 <./figuras/circuito2.png>])
 File: figuras/color_UNC-FCEFyN.png Graphic file (type png)
 <use figuras/color_UNC-FCEFyN.png>
-Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 45.
+Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 46.
 (pdftex.def)             Requested size: 204.85846pt x 33.25264pt.
  [12] 
 enddocument/afterlastpage: lastpage setting LastPage.
@@ -990,10 +997,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 16327 strings out of 474586
- 329449 string characters out of 5744256
+ 16394 strings out of 474586
+ 330685 string characters out of 5744256
  1947558 words of memory out of 5000000
- 38168 multiletter control sequences out of 15000+600000
+ 38231 multiletter control sequences out of 15000+600000
  601466 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,16n,107p,412b,411s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1010,7 +1017,7 @@ blic/lm/lmss17.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fonts/type1
 type1/public/lm/lmsso17.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/lm/lmsy10.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/lm/lmsy8.pfb>
-Output written on LAB1_SRA.pdf (13 pages, 639130 bytes).
+Output written on LAB1_SRA.pdf (13 pages, 639052 bytes).
 PDF statistics:
  140 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
