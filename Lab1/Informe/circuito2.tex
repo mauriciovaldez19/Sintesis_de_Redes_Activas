@@ -117,7 +117,7 @@ Luego se completaron nuevamente las tablas anteriores con los valores simulados.
 			\multicolumn{2}{ |c| }{$I_{RL}$[\textmu A]} 
 									 & 0.5    & 1 	   &    2 \\ \hline
 			
-			\multirow{5}{*}{$R_L$[K$\Omega$]} 	&  0 &   0    &   0    &    0 \\
+	\multirow{5}{*}{$R_L$[K$\Omega$]} 	&  0 &   0    &   0    &    0 \\
 				&  1 & 495.93 & 994.15 & 1994.08 \\
 				&  2 & 495.52 & 993.33 & 1991.35 \\
 				&  5 & 493.86 & 990.39 & 1549.12 \\
@@ -138,7 +138,7 @@ Luego se completaron nuevamente las tablas anteriores con los valores simulados.
 			\multicolumn{2}{ |c| }{$V_o$[V]} 
 							 		& 0.5    & 1     & 2   \\ \hline
 			
-			\multirow{5}{*}{$R_L$[K$\Omega$]} & 0	& 0      & 0     & 0   \\
+ \multirow{5}{*}{$R_L$[K$\Omega$]} & 0	& 0      & 0     & 0   \\
 			& 1	& 0.545  & 1.093 & 2.193 \\
 			& 2	& 1.089  & 2.185 & 4.380 \\
 			& 5	& 2.715  & 5.446 & 8.475  \\
@@ -148,11 +148,34 @@ Luego se completaron nuevamente las tablas anteriores con los valores simulados.
 		\caption{Valores simulados de $V_o$ en función de $R_L$ y de $V_{in}$}
 	\end{center}
 \end{table} 
-
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{figuras/Vout_Vin=2 y R=10k.png}
+	\caption{Simulación con $V_{in}=2$[V] y $R_L=10$[K$\Omega$] simulado}
+\end{figure}
+Aqui se observa como satura el amplificador a un valor próximo a $V_{cc}$ cuando su ganancia teórica supera.
 \subsection{Implementación}
 
 
 \subsection{Comparación entre resultados}
+En la siguiente tabla comparativa se reflejan los resultados obtenidos en cada una de las etapas previas y se calcula el error relativo que existe entre los resultados.\\
+Para simplificar los cálculos, se compararon los resultados usando una $R_L=1$[K$\Omega$]
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{| c | c | c | c | c |c |c |}
+			\hline
+			& \multicolumn{3}{ |c| }{Salida $V_o$[V]} &
+			\multicolumn{3}{ |c| }{Errores relativos (\%)} \\ \hline
+			Entrada $V_{in}$[V] & Teoría & Simulación & Experimental & Exp/Teo & Exp/Sim & Sim/Teo \\ \hline
+			0.5  & 0.55 & 0.545	& - & - & - & 0.90 \\
+			1    & 1.1  & 1.093	& - & - & - & 0.63 \\
+			2    & 2.2  & 2.193	& - & - & - & 0.31 \\ \hline
+		\end{tabular}
+	\end{center}
+\end{table} 
 
 \subsection{Conclusión}
+Se puede concluir que la herramienta de simulación es bastante precisa, pues el error relativo respecto al valor teórico siempre se mantuvo menor al 1\%.\\
+Ahora bien, el error relativo entre el valor teórico y el experimental es mas grande, aproximadamente (...\%), esto se debe a que los componentes no son ideales y el comportamiento puede variar en un rango acotado indicado por el fabricante.  
+
  

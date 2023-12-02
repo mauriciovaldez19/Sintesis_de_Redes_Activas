@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.23)  2 DEC 2023 10:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.23)  2 DEC 2023 14:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -627,7 +627,8 @@ File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 (LAB1_SRA.aux (portada.aux)
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
- (intro.aux) (circuito1.aux) (circuito2.aux))
+ (intro.aux) (circuito1.aux) (circuito2.aux)
+(circuito3.aux))
 \openout1 = `LAB1_SRA.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
@@ -868,7 +869,7 @@ Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 44.
 \openout2 = `circuito1.aux'.
 
  (circuito1.tex
-<figuras/circuito_consigna.png, id=35, 457.71pt x 234.1247pt>
+<figuras/circuito_consigna.png, id=36, 457.71pt x 234.1247pt>
 File: figuras/circuito_consigna.png Graphic file (type png)
 <use figuras/circuito_consigna.png>
 Package pdftex.def Info: figuras/circuito_consigna.png  used on input line 5.
@@ -972,21 +973,102 @@ File: figuras/circuito2.png Graphic file (type png)
 <use figuras/circuito2.png>
 Package pdftex.def Info: figuras/circuito2.png  used on input line 106.
 (pdftex.def)             Requested size: 455.24411pt x 221.04378pt.
+<figuras/Vout_Vin=2 y R=10k.png, id=75, 1025.33063pt x 453.19313pt>
+File: figuras/Vout_Vin=2 y R=10k.png Graphic file (type png)
+<use figuras/Vout_Vin=2 y R=10k.png>
+Package pdftex.def Info: figuras/Vout_Vin=2 y R=10k.png  used on input line 153
+.
+(pdftex.def)             Requested size: 455.24411pt x 201.21736pt.
 File: figuras/color_UNC-FCEFyN.png Graphic file (type png)
 <use figuras/color_UNC-FCEFyN.png>
-Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 151.
+Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 155.
 (pdftex.def)             Requested size: 204.85846pt x 33.25264pt.
- [11 <./figuras/circuito2.png>])
+ [11 <./figuras/circuito2.png>]
+File: figuras/color_UNC-FCEFyN.png Graphic file (type png)
+<use figuras/color_UNC-FCEFyN.png>
+Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 176.
+(pdftex.def)             Requested size: 204.85846pt x 33.25264pt.
+ [12 <./figuras/Vout_Vin=2 y R=10k.png>])
 File: figuras/color_UNC-FCEFyN.png Graphic file (type png)
 <use figuras/color_UNC-FCEFyN.png>
 Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 46.
 (pdftex.def)             Requested size: 204.85846pt x 33.25264pt.
- [12] 
+ [13]
+\openout2 = `circuito3.aux'.
+
+ (circuito3.tex
+<figuras/Circuito3_consigna.png, id=86, 472.01344pt x 296.60812pt>
+File: figuras/Circuito3_consigna.png Graphic file (type png)
+<use figuras/Circuito3_consigna.png>
+Package pdftex.def Info: figuras/Circuito3_consigna.png  used on input line 6.
+(pdftex.def)             Requested size: 455.24411pt x 286.07568pt.
+File: figuras/color_UNC-FCEFyN.png Graphic file (type png)
+<use figuras/color_UNC-FCEFyN.png>
+Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 32.
+(pdftex.def)             Requested size: 204.85846pt x 33.25264pt.
+
+[14
+
+
+
+ <./figuras/Circuito3_consigna.png>]
+<figuras/Circuito3.png, id=90, 804.00375pt x 381.67593pt>
+File: figuras/Circuito3.png Graphic file (type png)
+<use figuras/Circuito3.png>
+Package pdftex.def Info: figuras/Circuito3.png  used on input line 89.
+(pdftex.def)             Requested size: 455.24411pt x 216.11322pt.
+File: figuras/color_UNC-FCEFyN.png Graphic file (type png)
+<use figuras/color_UNC-FCEFyN.png>
+Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 91.
+(pdftex.def)             Requested size: 204.85846pt x 33.25264pt.
+ [15]
+<figuras/Vo1_Vo2_Vin=0.5.png, id=94, 1025.33063pt x 453.19313pt>
+File: figuras/Vo1_Vo2_Vin=0.5.png Graphic file (type png)
+<use figuras/Vo1_Vo2_Vin=0.5.png>
+Package pdftex.def Info: figuras/Vo1_Vo2_Vin=0.5.png  used on input line 94.
+(pdftex.def)             Requested size: 455.24411pt x 201.21736pt.
+<figuras/Vo1_Vo2_Vin=1.png, id=95, 1025.33063pt x 453.19313pt>
+File: figuras/Vo1_Vo2_Vin=1.png Graphic file (type png)
+<use figuras/Vo1_Vo2_Vin=1.png>
+Package pdftex.def Info: figuras/Vo1_Vo2_Vin=1.png  used on input line 107.
+(pdftex.def)             Requested size: 455.24411pt x 201.21736pt.
+File: figuras/color_UNC-FCEFyN.png Graphic file (type png)
+<use figuras/color_UNC-FCEFyN.png>
+Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 110.
+(pdftex.def)             Requested size: 204.85846pt x 33.25264pt.
+ [16 <./figuras/Circuito3.png> <./figuras/Vo1_Vo2_Vin=0.5.png>]
+<figuras/Vo1_Vo2_Vin=2.png, id=99, 1025.33063pt x 453.19313pt>
+File: figuras/Vo1_Vo2_Vin=2.png Graphic file (type png)
+<use figuras/Vo1_Vo2_Vin=2.png>
+Package pdftex.def Info: figuras/Vo1_Vo2_Vin=2.png  used on input line 120.
+(pdftex.def)             Requested size: 455.24411pt x 201.21736pt.
+<figuras/Vo1_Vo2_Vin=-4.png, id=100, 1025.33063pt x 453.19313pt>
+File: figuras/Vo1_Vo2_Vin=-4.png Graphic file (type png)
+<use figuras/Vo1_Vo2_Vin=-4.png>
+Package pdftex.def Info: figuras/Vo1_Vo2_Vin=-4.png  used on input line 133.
+(pdftex.def)             Requested size: 455.24411pt x 201.21736pt.
+File: figuras/color_UNC-FCEFyN.png Graphic file (type png)
+<use figuras/color_UNC-FCEFyN.png>
+Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 136.
+(pdftex.def)             Requested size: 204.85846pt x 33.25264pt.
+ [17 <./figuras/Vo1_Vo2_Vin=1.png> <./figuras/Vo1_Vo2_Vin=2.png>]
+<figuras/Vo1_Vo2_Vin=5.png, id=104, 1025.33063pt x 453.19313pt>
+File: figuras/Vo1_Vo2_Vin=5.png Graphic file (type png)
+<use figuras/Vo1_Vo2_Vin=5.png>
+Package pdftex.def Info: figuras/Vo1_Vo2_Vin=5.png  used on input line 146.
+(pdftex.def)             Requested size: 455.24411pt x 201.21736pt.
+)
+File: figuras/color_UNC-FCEFyN.png Graphic file (type png)
+<use figuras/color_UNC-FCEFyN.png>
+Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 47.
+(pdftex.def)             Requested size: 204.85846pt x 33.25264pt.
+ [18 <./figuras/Vo1_Vo2_Vin=-4.png> <./figuras/Vo1_Vo2_Vin=5.png>] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (LAB1_SRA.aux (portada.aux)
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
- (intro.aux) (circuito1.aux) (circuito2.aux))
+ (intro.aux) (circuito1.aux) (circuito2.aux)
+(circuito3.aux))
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
@@ -997,10 +1079,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 16394 strings out of 474586
- 330685 string characters out of 5744256
+ 16484 strings out of 474586
+ 333462 string characters out of 5744256
  1947558 words of memory out of 5000000
- 38231 multiletter control sequences out of 15000+600000
+ 38314 multiletter control sequences out of 15000+600000
  601466 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,16n,107p,412b,411s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1017,9 +1099,9 @@ blic/lm/lmss17.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fonts/type1
 type1/public/lm/lmsso17.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/lm/lmsy10.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/lm/lmsy8.pfb>
-Output written on LAB1_SRA.pdf (13 pages, 639052 bytes).
+Output written on LAB1_SRA.pdf (19 pages, 821127 bytes).
 PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
+ 167 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 
