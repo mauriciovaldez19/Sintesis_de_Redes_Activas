@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.23)  1 DEC 2023 23:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.23)  1 DEC 2023 23:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -941,74 +941,30 @@ Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 44.
 \openout2 = `circuito2.aux'.
 
  (circuito2.tex
-File: figuras/circuito_consigna.png Graphic file (type png)
-<use figuras/circuito_consigna.png>
-Package pdftex.def Info: figuras/circuito_consigna.png  used on input line 5.
-(pdftex.def)             Requested size: 455.24411pt x 232.87375pt.
+<figuras/circuito2_consigna.png, id=66, 405.01312pt x 242.40562pt>
+File: figuras/circuito2_consigna.png Graphic file (type png)
+<use figuras/circuito2_consigna.png>
+Package pdftex.def Info: figuras/circuito2_consigna.png  used on input line 6.
+(pdftex.def)             Requested size: 455.24411pt x 272.4763pt.
+<figuras/circuito2.png, id=67, 702.37407pt x 341.02406pt>
+File: figuras/circuito2.png Graphic file (type png)
+<use figuras/circuito2.png>
+Package pdftex.def Info: figuras/circuito2.png  used on input line 22.
+(pdftex.def)             Requested size: 455.24411pt x 221.04378pt.
 File: figuras/color_UNC-FCEFyN.png Graphic file (type png)
 <use figuras/color_UNC-FCEFyN.png>
-Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 30.
+Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 25.
 (pdftex.def)             Requested size: 204.85846pt x 33.25264pt.
  [9
 
 
 
-]
-File: figuras/graf_freq_lm324.png Graphic file (type png)
-<use figuras/graf_freq_lm324.png>
-Package pdftex.def Info: figuras/graf_freq_lm324.png  used on input line 58.
-(pdftex.def)             Requested size: 273.14923pt x 181.33746pt.
-File: figuras/color_UNC-FCEFyN.png Graphic file (type png)
-<use figuras/color_UNC-FCEFyN.png>
-Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 64.
-(pdftex.def)             Requested size: 204.85846pt x 33.25264pt.
- [10]
-File: figuras/circuito1.png Graphic file (type png)
-<use figuras/circuito1.png>
-Package pdftex.def Info: figuras/circuito1.png  used on input line 79.
-(pdftex.def)             Requested size: 455.24411pt x 202.06651pt.
-File: figuras/Sim_V1=10mv_V2=0.png Graphic file (type png)
-<use figuras/Sim_V1=10mv_V2=0.png>
-Package pdftex.def Info: figuras/Sim_V1=10mv_V2=0.png  used on input line 84.
-(pdftex.def)             Requested size: 455.24411pt x 201.21736pt.
-File: figuras/color_UNC-FCEFyN.png Graphic file (type png)
-<use figuras/color_UNC-FCEFyN.png>
-Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 87.
-(pdftex.def)             Requested size: 204.85846pt x 33.25264pt.
- [11]
-File: figuras/Sim_V1=0_V2=10mv.png Graphic file (type png)
-<use figuras/Sim_V1=0_V2=10mv.png>
-Package pdftex.def Info: figuras/Sim_V1=0_V2=10mv.png  used on input line 98.
-(pdftex.def)             Requested size: 455.24411pt x 201.21736pt.
-File: figuras/Sim_Modo_Diferencial.png Graphic file (type png)
-<use figuras/Sim_Modo_Diferencial.png>
-Package pdftex.def Info: figuras/Sim_Modo_Diferencial.png  used on input line 1
-12.
-(pdftex.def)             Requested size: 455.24411pt x 201.21736pt.
-File: figuras/color_UNC-FCEFyN.png Graphic file (type png)
-<use figuras/color_UNC-FCEFyN.png>
-Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 115.
-(pdftex.def)             Requested size: 204.85846pt x 33.25264pt.
- [12]
-File: figuras/Sim_Modo_Comun.png Graphic file (type png)
-<use figuras/Sim_Modo_Comun.png>
-Package pdftex.def Info: figuras/Sim_Modo_Comun.png  used on input line 125.
-(pdftex.def)             Requested size: 455.24411pt x 201.21736pt.
-File: figuras/lab1_freq.png Graphic file (type png)
-<use figuras/lab1_freq.png>
-Package pdftex.def Info: figuras/lab1_freq.png  used on input line 138.
-(pdftex.def)             Requested size: 455.24411pt x 200.40413pt.
-File: figuras/color_UNC-FCEFyN.png Graphic file (type png)
-<use figuras/color_UNC-FCEFyN.png>
-Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 141.
-(pdftex.def)             Requested size: 204.85846pt x 33.25264pt.
- [13])
+ <./figuras/circuito2_consigna.png>])
 File: figuras/color_UNC-FCEFyN.png Graphic file (type png)
 <use figuras/color_UNC-FCEFyN.png>
 Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 45.
 (pdftex.def)             Requested size: 204.85846pt x 33.25264pt.
- [14]
-
+ [10 <./figuras/circuito2.png>] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (LAB1_SRA.aux (portada.aux)
 LaTeX Info: Redefining \. on input line 9.
@@ -1024,13 +980,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 16303 strings out of 474586
- 328854 string characters out of 5744256
+ 16317 strings out of 474586
+ 329307 string characters out of 5744256
  1936558 words of memory out of 5000000
- 38144 multiletter control sequences out of 15000+600000
+ 38158 multiletter control sequences out of 15000+600000
  601466 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,16n,107p,412b,415s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,16n,107p,412b,411s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12
 .pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmm
 i6.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/l
@@ -1043,9 +999,9 @@ blic/lm/lmss17.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/lm/lmssbx10.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/lm/lmsso17.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/lm/lmsy10.pfb>
-Output written on LAB1_SRA.pdf (15 pages, 607066 bytes).
+Output written on LAB1_SRA.pdf (11 pages, 620316 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
+ 128 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
