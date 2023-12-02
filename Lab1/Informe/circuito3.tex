@@ -6,6 +6,7 @@
 	\includegraphics[width=1\textwidth]{figuras/Circuito3_consigna.png}
 	\caption{Circuito propuesto}
 \end{figure}
+En este circuito se tienen 2 AO LM324 con diodos trabajando como un rectificador de precisión con una señal común para ambos. La fuente de alimentación es simétrica en +/- 10[V]. Los diodos utilizados son 1N4148.
 \subsection{Análisis teórico}
 Para determinar $V_o$ en función de $V_{in}$ el análisis se hace para cuando $V_{in}$ es positiva y cuando $V_{in}$ es negativa.
 \subsubsection{$V_o = f(V_{in})$ con $V_{in}$ $> 0$  }
@@ -83,12 +84,27 @@ Aplicando superposición para encontrar el resultado completo
 \end{center}
 Entonces, cuando la tensión de entrada es positiva, la tensión de salida es igual a la entrada, mientras que cuando la tensión de entrada es negativa, la tensión de salida tendrá la misma amplitud pero será positiva.
 \subsection{Simulación}
-Se realizaron diferentes simulaciones con LTSpice para observar el comportamiento a la salida para diferentes valores de entrada.
+Se realizaron diferentes simulaciones con LTSpice para observar el comportamiento a la salida para diferentes valores de entrada. Primero se hizo un DC sweep con valores de $V_{in}$ que van desde -10[V] a los 10[V]. Luego se realizó un Trasient con frecuencia de 1[KHz].
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{figuras/Circuito3.png}
 	\caption{Circuito simulado}
 \end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{figuras/dc_sweep_vo1.png}
+	\caption{Dc sweep $Vo_1$ (verde) $ -10[V] < V_{in} < 10 [V]$(azul).}
+\end{figure}
+Como se observa en los puntos marcados, la salida es duplicada para valores negativos de entrada mientras que para valores positivos de entrada, son copiados a la salida.
+También para baja excursión presenta alta ganancia y alinealidades.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{figuras/dc_sweep_vo2.png}
+	\caption{Dc sweep $Vo_2$ (rojo) $ -10[V] < V_{in} < 10 [V]$ (verde).}
+\end{figure}
+Como se observa  en el rango de -4[V] a 4[V] la salida es el valor absoluto del valor de la entrada, es decir una rectificación completa de una onda senoidal.\\
+A continuación las simulaciones Transient con $V_{in}$ variable y de frecuencia 1[KHz].
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{figuras/Vo1_Vo2_Vin=0.5.png}
@@ -154,7 +170,4 @@ Se realizaron diferentes simulaciones con LTSpice para observar el comportamient
 		$Vo_2$ 	& 	4.98 [V]	 \\ \hline
 	\end{tabular}
 \end{center}
-Como se observa en las dos últimas imágenes la salida $V_1$ se ve distorsionada, ya que se satura.
-\subsection{Implementación}
-
-\subsection{Comparación entre resultados}
+Como se observa para los diferentes valores de probados en el rango de -4[V] y 4[V] la señal fue rectificada correctamente. Sin embargo para valores fuera de ese rango, la salida comienza a distorsionarse debido a que la salida del primer AO comienza a saturarse debido a las alinealidades nombradas anteriormente.

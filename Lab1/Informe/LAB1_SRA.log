@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.23)  2 DEC 2023 14:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.23)  2 DEC 2023 19:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1004,7 +1004,7 @@ Package pdftex.def Info: figuras/Circuito3_consigna.png  used on input line 6.
 (pdftex.def)             Requested size: 455.24411pt x 286.07568pt.
 File: figuras/color_UNC-FCEFyN.png Graphic file (type png)
 <use figuras/color_UNC-FCEFyN.png>
-Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 32.
+Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 27.
 (pdftex.def)             Requested size: 204.85846pt x 33.25264pt.
 
 [14
@@ -1012,57 +1012,78 @@ Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 32.
 
 
  <./figuras/Circuito3_consigna.png>]
-<figuras/Circuito3.png, id=90, 804.00375pt x 381.67593pt>
-File: figuras/Circuito3.png Graphic file (type png)
-<use figuras/Circuito3.png>
-Package pdftex.def Info: figuras/Circuito3.png  used on input line 89.
-(pdftex.def)             Requested size: 455.24411pt x 216.11322pt.
 File: figuras/color_UNC-FCEFyN.png Graphic file (type png)
 <use figuras/color_UNC-FCEFyN.png>
-Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 91.
+Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 86.
 (pdftex.def)             Requested size: 204.85846pt x 33.25264pt.
  [15]
-<figuras/Vo1_Vo2_Vin=0.5.png, id=94, 1025.33063pt x 453.19313pt>
+<figuras/Circuito3.png, id=93, 804.00375pt x 381.67593pt>
+File: figuras/Circuito3.png Graphic file (type png)
+<use figuras/Circuito3.png>
+Package pdftex.def Info: figuras/Circuito3.png  used on input line 90.
+(pdftex.def)             Requested size: 455.24411pt x 216.11322pt.
+<figuras/dc_sweep_vo1.png, id=94, 1025.33063pt x 453.19313pt>
+File: figuras/dc_sweep_vo1.png Graphic file (type png)
+<use figuras/dc_sweep_vo1.png>
+Package pdftex.def Info: figuras/dc_sweep_vo1.png  used on input line 95.
+(pdftex.def)             Requested size: 455.24411pt x 201.21736pt.
+File: figuras/color_UNC-FCEFyN.png Graphic file (type png)
+<use figuras/color_UNC-FCEFyN.png>
+Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 98.
+(pdftex.def)             Requested size: 204.85846pt x 33.25264pt.
+ [16 <./figuras/Circuito3.png>]
+<figuras/dc_sweep_vo2.png, id=98, 1023.825pt x 451.6875pt>
+File: figuras/dc_sweep_vo2.png Graphic file (type png)
+<use figuras/dc_sweep_vo2.png>
+Package pdftex.def Info: figuras/dc_sweep_vo2.png  used on input line 102.
+(pdftex.def)             Requested size: 455.24411pt x 200.83833pt.
+<figuras/Vo1_Vo2_Vin=0.5.png, id=99, 1025.33063pt x 453.19313pt>
 File: figuras/Vo1_Vo2_Vin=0.5.png Graphic file (type png)
 <use figuras/Vo1_Vo2_Vin=0.5.png>
-Package pdftex.def Info: figuras/Vo1_Vo2_Vin=0.5.png  used on input line 94.
+Package pdftex.def Info: figuras/Vo1_Vo2_Vin=0.5.png  used on input line 110.
 (pdftex.def)             Requested size: 455.24411pt x 201.21736pt.
-<figuras/Vo1_Vo2_Vin=1.png, id=95, 1025.33063pt x 453.19313pt>
+File: figuras/color_UNC-FCEFyN.png Graphic file (type png)
+<use figuras/color_UNC-FCEFyN.png>
+Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 113.
+(pdftex.def)             Requested size: 204.85846pt x 33.25264pt.
+
+[17 <./figuras/dc_sweep_vo1.png> <./figuras/dc_sweep_vo2.png>]
+<figuras/Vo1_Vo2_Vin=1.png, id=103, 1025.33063pt x 453.19313pt>
 File: figuras/Vo1_Vo2_Vin=1.png Graphic file (type png)
 <use figuras/Vo1_Vo2_Vin=1.png>
-Package pdftex.def Info: figuras/Vo1_Vo2_Vin=1.png  used on input line 107.
+Package pdftex.def Info: figuras/Vo1_Vo2_Vin=1.png  used on input line 123.
 (pdftex.def)             Requested size: 455.24411pt x 201.21736pt.
-File: figuras/color_UNC-FCEFyN.png Graphic file (type png)
-<use figuras/color_UNC-FCEFyN.png>
-Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 110.
-(pdftex.def)             Requested size: 204.85846pt x 33.25264pt.
- [16 <./figuras/Circuito3.png> <./figuras/Vo1_Vo2_Vin=0.5.png>]
-<figuras/Vo1_Vo2_Vin=2.png, id=99, 1025.33063pt x 453.19313pt>
+<figuras/Vo1_Vo2_Vin=2.png, id=104, 1025.33063pt x 453.19313pt>
 File: figuras/Vo1_Vo2_Vin=2.png Graphic file (type png)
 <use figuras/Vo1_Vo2_Vin=2.png>
-Package pdftex.def Info: figuras/Vo1_Vo2_Vin=2.png  used on input line 120.
-(pdftex.def)             Requested size: 455.24411pt x 201.21736pt.
-<figuras/Vo1_Vo2_Vin=-4.png, id=100, 1025.33063pt x 453.19313pt>
-File: figuras/Vo1_Vo2_Vin=-4.png Graphic file (type png)
-<use figuras/Vo1_Vo2_Vin=-4.png>
-Package pdftex.def Info: figuras/Vo1_Vo2_Vin=-4.png  used on input line 133.
+Package pdftex.def Info: figuras/Vo1_Vo2_Vin=2.png  used on input line 136.
 (pdftex.def)             Requested size: 455.24411pt x 201.21736pt.
 File: figuras/color_UNC-FCEFyN.png Graphic file (type png)
 <use figuras/color_UNC-FCEFyN.png>
-Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 136.
+Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 139.
 (pdftex.def)             Requested size: 204.85846pt x 33.25264pt.
- [17 <./figuras/Vo1_Vo2_Vin=1.png> <./figuras/Vo1_Vo2_Vin=2.png>]
-<figuras/Vo1_Vo2_Vin=5.png, id=104, 1025.33063pt x 453.19313pt>
+ [18 <./figuras/Vo1_Vo2_Vin=0.5.png> <./figuras/Vo1_Vo2_Vin=1.png>]
+<figuras/Vo1_Vo2_Vin=-4.png, id=109, 1025.33063pt x 453.19313pt>
+File: figuras/Vo1_Vo2_Vin=-4.png Graphic file (type png)
+<use figuras/Vo1_Vo2_Vin=-4.png>
+Package pdftex.def Info: figuras/Vo1_Vo2_Vin=-4.png  used on input line 149.
+(pdftex.def)             Requested size: 455.24411pt x 201.21736pt.
+<figuras/Vo1_Vo2_Vin=5.png, id=110, 1025.33063pt x 453.19313pt>
 File: figuras/Vo1_Vo2_Vin=5.png Graphic file (type png)
 <use figuras/Vo1_Vo2_Vin=5.png>
-Package pdftex.def Info: figuras/Vo1_Vo2_Vin=5.png  used on input line 146.
+Package pdftex.def Info: figuras/Vo1_Vo2_Vin=5.png  used on input line 162.
 (pdftex.def)             Requested size: 455.24411pt x 201.21736pt.
-)
+File: figuras/color_UNC-FCEFyN.png Graphic file (type png)
+<use figuras/color_UNC-FCEFyN.png>
+Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 165.
+(pdftex.def)             Requested size: 204.85846pt x 33.25264pt.
+ [19 <./figuras/Vo1_Vo2_Vin=2.png> <./figuras/Vo1_Vo2_Vin=-4.png>])
 File: figuras/color_UNC-FCEFyN.png Graphic file (type png)
 <use figuras/color_UNC-FCEFyN.png>
 Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 47.
 (pdftex.def)             Requested size: 204.85846pt x 33.25264pt.
- [18 <./figuras/Vo1_Vo2_Vin=-4.png> <./figuras/Vo1_Vo2_Vin=5.png>] 
+ [20 <./figuras/Vo1_Vo2_Vin=5.png>]
+
 enddocument/afterlastpage: lastpage setting LastPage.
 (LAB1_SRA.aux (portada.aux)
 LaTeX Info: Redefining \. on input line 9.
@@ -1079,10 +1100,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 16484 strings out of 474586
- 333462 string characters out of 5744256
+ 16500 strings out of 474586
+ 333924 string characters out of 5744256
  1947558 words of memory out of 5000000
- 38314 multiletter control sequences out of 15000+600000
+ 38330 multiletter control sequences out of 15000+600000
  601466 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,16n,107p,412b,411s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1099,9 +1120,9 @@ blic/lm/lmss17.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fonts/type1
 type1/public/lm/lmsso17.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/lm/lmsy10.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/lm/lmsy8.pfb>
-Output written on LAB1_SRA.pdf (19 pages, 821127 bytes).
+Output written on LAB1_SRA.pdf (21 pages, 861817 bytes).
 PDF statistics:
- 167 PDF objects out of 1000 (max. 8388607)
+ 175 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 123 words of extra memory for PDF output out of 10000 (max. 10000000)
 
