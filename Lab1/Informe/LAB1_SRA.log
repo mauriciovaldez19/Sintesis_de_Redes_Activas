@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.23)  1 DEC 2023 23:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.23)  1 DEC 2023 23:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./Article_1.tex
-(Article_1.tex
+**./LAB1_SRA.tex
+(LAB1_SRA.tex
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
 (C:\Users\Mauricio\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -617,11 +617,11 @@ LaTeX Font Info:    Trying to load font information for OT1+lmss on input line
 (C:\Users\Mauricio\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-(Article_1.aux (portada.aux)
+(LAB1_SRA.aux (portada.aux)
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
  (intro.aux) (circuito1.aux) (circuito2.aux))
-\openout1 = `Article_1.aux'.
+\openout1 = `LAB1_SRA.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
@@ -796,7 +796,7 @@ Package pdftex.def Info: figuras/background.pdf  used on input line 30.
 {C:/Users/Mauricio/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/M
 auricio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Ma
 uricio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc} <./figuras/
-background.pdf> <./figuras/color_UNC-FCEFyN.png>]) (Article_1.toc
+background.pdf> <./figuras/color_UNC-FCEFyN.png>]) (LAB1_SRA.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
@@ -834,7 +834,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write4
-\openout4 = `Article_1.toc'.
+\openout4 = `LAB1_SRA.toc'.
 
 File: figuras/color_UNC-FCEFyN.png Graphic file (type png)
 <use figuras/color_UNC-FCEFyN.png>
@@ -1010,7 +1010,7 @@ Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 45.
  [14]
 
 enddocument/afterlastpage: lastpage setting LastPage.
-(Article_1.aux (portada.aux)
+(LAB1_SRA.aux (portada.aux)
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
  (intro.aux) (circuito1.aux) (circuito2.aux))
@@ -1025,12 +1025,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  16303 strings out of 474586
- 327920 string characters out of 5744256
+ 328854 string characters out of 5744256
  1936558 words of memory out of 5000000
  38144 multiletter control sequences out of 15000+600000
  601466 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,16n,107p,413b,415s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,16n,107p,412b,415s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12
 .pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmm
 i6.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/l
@@ -1043,7 +1043,7 @@ blic/lm/lmss17.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/lm/lmssbx10.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/lm/lmsso17.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/lm/lmsy10.pfb>
-Output written on Article_1.pdf (15 pages, 607066 bytes).
+Output written on LAB1_SRA.pdf (15 pages, 607066 bytes).
 PDF statistics:
  139 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
