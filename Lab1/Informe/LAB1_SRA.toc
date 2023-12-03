@@ -15,11 +15,11 @@
 \contentsline {section}{\numberline {4}Fuente de corriente controlada por tensión}{9}{}%
 \contentsline {subsection}{\numberline {4.1}Análisis teórico}{9}{}%
 \contentsline {subsection}{\numberline {4.2}Simulaciones}{11}{}%
-\contentsline {subsection}{\numberline {4.3}Implementación}{12}{}%
-\contentsline {subsection}{\numberline {4.4}Comparación entre resultados}{12}{}%
-\contentsline {subsection}{\numberline {4.5}Conclusión}{13}{}%
-\contentsline {section}{\numberline {5}Rectificador de precisión}{14}{}%
-\contentsline {subsection}{\numberline {5.1}Análisis teórico}{14}{}%
-\contentsline {subsubsection}{\numberline {5.1.1}$V_o = f(V_{in})$ con $V_{in}$ $> 0$ }{14}{}%
-\contentsline {subsubsection}{\numberline {5.1.2}$V_o = f(V_{in})$ con $V_{in}$ $< 0$ }{15}{}%
-\contentsline {subsection}{\numberline {5.2}Simulación}{16}{}%
+\contentsline {subsection}{\numberline {4.3}Implementación}{13}{}%
+\contentsline {subsection}{\numberline {4.4}Comparación entre resultados}{13}{}%
+\contentsline {subsection}{\numberline {4.5}Conclusión}{14}{}%
+\contentsline {section}{\numberline {5}Rectificador de precisión}{15}{}%
+\contentsline {subsection}{\numberline {5.1}Análisis teórico}{15}{}%
+\contentsline {subsubsection}{\numberline {5.1.1}$V_o = f(V_{in})$ con $V_{in}$ $> 0$ }{15}{}%
+\contentsline {subsubsection}{\numberline {5.1.2}$V_o = f(V_{in})$ con $V_{in}$ $< 0$ }{16}{}%
+\contentsline {subsection}{\numberline {5.2}Simulación}{17}{}%

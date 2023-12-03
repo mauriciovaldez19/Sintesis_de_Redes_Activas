@@ -98,7 +98,7 @@ Aquellos valores que superen el valor de la tensión de $V_{cc}$, la salida se e
 
 
 \subsection{Simulaciones}
-Se realizaron diferentes simulaciones con LTSpice para observar el comportamiento de $I_{RL}$ y $V_o$.
+Se realizaron diferentes simulaciones con LTSpice para observar el comportamiento de $I_{RL}$ y $V_o$. 
 Luego se completaron nuevamente las tablas anteriores con los valores simulados.
 
 \begin{figure}[H]
@@ -106,7 +106,29 @@ Luego se completaron nuevamente las tablas anteriores con los valores simulados.
 	\includegraphics[width=1\textwidth]{figuras/circuito2.png}
 	\caption{Circuito simulado}
 \end{figure}
-
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{figuras/dcsweep_rl.png}
+	\caption{$I_{RL} = f(R_L , V_{in})$}
+\end{figure}
+Para esta simulación se hizo un barrido en continua de 0[V] a 10[V], ya que desde -10[V] la respuesta es aproximadamente simétrica. Lo que se observa es que la variación de la corriente es lineal hasta el punto de tensión para cada valor de $R_L$  que satura al operacional. 
+\begin{center}
+	\begin{tabular}{| c | c |}
+		\hline
+		      $R_L$     &   $V_{in-sat}$ \\ \hline
+		 1 [K$\Omega$] 	&   	7.5 [V]	 \\
+		 2 [K$\Omega$] 	&  	    3.5 [V]	 \\
+		 5 [K$\Omega$] 	&    	1.4 [V]	 \\
+		10 [K$\Omega$] 	&   	0.5 [V]	 \\ \hline
+		
+	\end{tabular}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{figuras/dcsweep_vo.png}
+		\caption{$V_o = f(V_{in}, R_L)$}
+	\end{figure}
+\end{center}
+	Aqui se observa como varía la tensión de salida respecto a la tensión de entrada y a los valores de $R_L$ propuestos.
 \begin{table}[H]
 	\begin{center}
 		\begin{tabular}{| c | c | c | c | c |}
@@ -153,7 +175,7 @@ Luego se completaron nuevamente las tablas anteriores con los valores simulados.
 	\includegraphics[width=1\textwidth]{figuras/Vout_Vin=2 y R=10k.png}
 	\caption{Simulación con $V_{in}=2$[V] y $R_L=10$[K$\Omega$] simulado}
 \end{figure}
-Aqui se observa como satura el amplificador a un valor próximo a $V_{cc}$ cuando su ganancia teórica supera.
+
 \subsection{Implementación}
 
 
