@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.23)  3 DEC 2023 01:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.23)  6 DEC 2023 14:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -628,7 +628,7 @@ File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
  (intro.aux) (circuito1.aux) (circuito2.aux)
-(circuito3.aux))
+(circuito3.aux) (circuito4.aux))
 \openout1 = `LAB1_SRA.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
@@ -1097,13 +1097,82 @@ File: figuras/color_UNC-FCEFyN.png Graphic file (type png)
 Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 47.
 (pdftex.def)             Requested size: 204.85846pt x 33.25264pt.
  [21 <./figuras/Vo1_Vo2_Vin=5.png>]
+\openout2 = `circuito4.aux'.
 
+ (circuito4.tex
+<figuras/Circuito4_consigna.png, id=122, 366.61969pt x 234.1247pt>
+File: figuras/Circuito4_consigna.png Graphic file (type png)
+<use figuras/Circuito4_consigna.png>
+Package pdftex.def Info: figuras/Circuito4_consigna.png  used on input line 6.
+(pdftex.def)             Requested size: 455.24411pt x 290.7403pt.
+File: figuras/color_UNC-FCEFyN.png Graphic file (type png)
+<use figuras/color_UNC-FCEFyN.png>
+Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 29.
+(pdftex.def)             Requested size: 204.85846pt x 33.25264pt.
+ [22
+
+
+
+ <./figuras/Circuito4_consigna.png>]
+File: figuras/color_UNC-FCEFyN.png Graphic file (type png)
+<use figuras/color_UNC-FCEFyN.png>
+Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 101.
+(pdftex.def)             Requested size: 204.85846pt x 33.25264pt.
+ [23{C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-math
+ex.enc}]
+<figuras/Circuito4.png, id=130, 1025.33063pt x 470.50781pt>
+File: figuras/Circuito4.png Graphic file (type png)
+<use figuras/Circuito4.png>
+Package pdftex.def Info: figuras/Circuito4.png  used on input line 131.
+(pdftex.def)             Requested size: 455.24411pt x 208.90506pt.
+<figuras/caso_gral_histeresis.png, id=131, 1025.33063pt x 453.19313pt>
+File: figuras/caso_gral_histeresis.png Graphic file (type png)
+<use figuras/caso_gral_histeresis.png>
+Package pdftex.def Info: figuras/caso_gral_histeresis.png  used on input line 1
+37.
+(pdftex.def)             Requested size: 455.24411pt x 201.21736pt.
+<figuras/caso_gral_histeresis_time.png, id=132, 1025.33063pt x 453.19313pt>
+File: figuras/caso_gral_histeresis_time.png Graphic file (type png)
+<use figuras/caso_gral_histeresis_time.png>
+Package pdftex.def Info: figuras/caso_gral_histeresis_time.png  used on input l
+ine 142.
+(pdftex.def)             Requested size: 455.24411pt x 201.21736pt.
+File: figuras/color_UNC-FCEFyN.png Graphic file (type png)
+<use figuras/color_UNC-FCEFyN.png>
+Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 144.
+(pdftex.def)             Requested size: 204.85846pt x 33.25264pt.
+ [24 <./figuras/Circuito4.png>]
+<figuras/caso_vss=0_histeresis.png, id=137, 1025.33063pt x 453.19313pt>
+File: figuras/caso_vss=0_histeresis.png Graphic file (type png)
+<use figuras/caso_vss=0_histeresis.png>
+Package pdftex.def Info: figuras/caso_vss=0_histeresis.png  used on input line 
+149.
+(pdftex.def)             Requested size: 455.24411pt x 201.21736pt.
+<figuras/caso_vss=0_histeresis_time.png, id=138, 1025.33063pt x 453.19313pt>
+File: figuras/caso_vss=0_histeresis_time.png Graphic file (type png)
+<use figuras/caso_vss=0_histeresis_time.png>
+Package pdftex.def Info: figuras/caso_vss=0_histeresis_time.png  used on input 
+line 154.
+(pdftex.def)             Requested size: 455.24411pt x 201.21736pt.
+File: figuras/color_UNC-FCEFyN.png Graphic file (type png)
+<use figuras/color_UNC-FCEFyN.png>
+Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 156.
+(pdftex.def)             Requested size: 204.85846pt x 33.25264pt.
+ [25 <./figuras/caso_gral_histeresis.png> <./figuras/caso_gral_histeresis_time.
+png>])
+File: figuras/color_UNC-FCEFyN.png Graphic file (type png)
+<use figuras/color_UNC-FCEFyN.png>
+Package pdftex.def Info: figuras/color_UNC-FCEFyN.png  used on input line 48.
+(pdftex.def)             Requested size: 204.85846pt x 33.25264pt.
+
+[26 <./figuras/caso_vss=0_histeresis.png> <./figuras/caso_vss=0_histeresis_time
+.png>] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (LAB1_SRA.aux (portada.aux)
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
  (intro.aux) (circuito1.aux) (circuito2.aux)
-(circuito3.aux))
+(circuito3.aux) (circuito4.aux))
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
@@ -1114,29 +1183,30 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 16514 strings out of 474586
- 334328 string characters out of 5744256
+ 16592 strings out of 474586
+ 336955 string characters out of 5744256
  1947558 words of memory out of 5000000
- 38344 multiletter control sequences out of 15000+600000
+ 38414 multiletter control sequences out of 15000+600000
  601466 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,16n,107p,412b,411s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12
+<C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10
 .pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmm
-i6.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/l
-mmi8.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm
-/lmr12.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-lm/lmr6.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/lm/lmr8.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/lm/lmss12.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/lm/lmss17.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/lm/lmssbx10.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/lm/lmsso17.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/lm/lmsy10.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/lm/lmsy8.pfb>
-Output written on LAB1_SRA.pdf (22 pages, 898469 bytes).
+i12.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/
+lmmi6.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fonts/type1/public/l
+m/lmmi8.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/lm/lmr12.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/lm/lmr6.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/lm/lmr8.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/lm/lmss12.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/lm/lmss17.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/lm/lmssbx10.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/lm/lmsso17.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Mauricio/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/lm/lmsy8.pfb>
+Output written on LAB1_SRA.pdf (27 pages, 1014397 bytes).
 PDF statistics:
- 180 PDF objects out of 1000 (max. 8388607)
+ 208 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 163 words of extra memory for PDF output out of 10000 (max. 10000000)
 

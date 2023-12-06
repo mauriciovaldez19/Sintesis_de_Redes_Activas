@@ -23,3 +23,11 @@
 \contentsline {subsubsection}{\numberline {5.1.1}$V_o = f(V_{in})$ con $V_{in}$ $> 0$ }{15}{}%
 \contentsline {subsubsection}{\numberline {5.1.2}$V_o = f(V_{in})$ con $V_{in}$ $< 0$ }{16}{}%
 \contentsline {subsection}{\numberline {5.2}Simulación}{17}{}%
+\contentsline {section}{\numberline {6}Comparador con Histéresis}{22}{}%
+\contentsline {subsection}{\numberline {6.1}Análisis teórico}{22}{}%
+\contentsline {subsubsection}{\numberline {6.1.1}Si $V_d<0$}{23}{}%
+\contentsline {subsubsection}{\numberline {6.1.2}Si $V_d>0$}{23}{}%
+\contentsline {subsubsection}{\numberline {6.1.3}Si $V_{ss} = 0$}{24}{}%
+\contentsline {subsection}{\numberline {6.2}Simulación}{24}{}%
+\contentsline {subsubsection}{\numberline {6.2.1}Caso general $v_{cc}$ y $v_{ss}$ distintos de cero y simétricos}{25}{}%
+\contentsline {subsubsection}{\numberline {6.2.2}Caso general $v_{cc}$10[V] y $v_{ss}$0[V] distintos de cero y simétricos}{26}{}%
