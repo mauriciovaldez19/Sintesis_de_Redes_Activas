@@ -1,0 +1,37 @@
+Mediciones Osciloscopio KEYSIGHT 
+se toma como salida canal 1 (amarillo) y entrada canal 2 (verde)
+
+NewFile0 -> Vo1=f(v1) con v1=1v
+NewFile1 -> Vo1=f(v1) con v1=3v (satura)
+NewFile2 -> Vo1=f(v1) con v1=10v (satura)
+
+NewFile3 -> Vo1=f(v2) con v2=1v
+NewFile4 -> Vo1=f(v2) con v2=3v (satura)
+NewFile5 -> Vo1=f(v2) con v2=10v (satura)
+
+NewFile6 -> Vo1=f(Vc) con v2=1 v
+NewFile7 -> Vo1=f(Vc) con v2=4.5 v (satura)
+NewFile8 -> Vo1=f(Vc) con v2=10 v (satura)
+
+NewFile9 -> Vo2=f(Vc) con v2=1v  no va
+NewFile10 -> Vo2=f(Vc) con v2=1v 
+NewFile11 -> Vo2=f(Vc) con v2=7v 
+NewFile11 -> Vo2=f(Vc) con v2=10v
+
+#circuito2 tp1
+NewFile13 -> Vo=f(Vin,RL) con RL=1k y Vin=1V
+NewFile14 -> Vo=f(Vin,RL) con RL=1k y Vin=0.5V
+NewFile15 -> Vo=f(Vin,RL) con RL=1k y Vin=2V 
+NewFile16 -> Vo=f(Vin,RL) con RL=10k y Vin=2V
+NewFile17 -> Vo=f(Vin,RL) con RL=10k y Vin=1V
+NewFile18 -> Vo=f(Vin,RL) con RL=10k y Vin=0.5V 
+NewFile19 -> V_RL=f(Vin,RL) con RL=1k y Vin=0.5V
+NewFile20 -> V_RL=f(Vin,RL) con RL=1k y Vin=1V
+NewFile21 -> V_RL=f(Vin,RL) con RL=1k y Vin=2V
+
+#circuito1 tp2 errores
+NewFile22 -> Vo=f(V1), V1=50mV
+NewFile23 -> Vo=f(V1), V1=100mV
+NewFile24 -> Vo=f(V1), V1=5V
+NewFile25 -> Vo=f(Ad<inf), V1=333mV, V2=0V
+NewFile26 -> SR, V1=320mV f=2kHz 
