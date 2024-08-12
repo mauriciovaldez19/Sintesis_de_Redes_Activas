@@ -177,27 +177,83 @@ Para esta simulación se hizo un barrido en continua de 0[V] a 10[V], ya que des
 \end{figure}
 
 \subsection{Implementación}
+A continuación se muestran los resultados obtenidos en la implementación del circuito:
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.6\textwidth]{figuras/NewFile13.png}
+	\caption{Implementación $V_{o}=f(V_{in},R_L)$ con $V_{in}= 1$[V], $R_L=1$[K$\Omega$]}
+\end{figure}
 
-\subsection{Comparación entre resultados}
-En la siguiente tabla comparativa se reflejan los resultados obtenidos en cada una de las etapas previas y se calcula el error relativo que existe entre los resultados.\\
-Para simplificar los cálculos, se compararon los resultados usando una $R_L=1$[K$\Omega$]
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.6\textwidth]{figuras/NewFile14.png}
+	\caption{Implementación $V_{o}=f(V_{in},R_L)$ con $V_{in}= 0.5$[V], $R_L=1$[K$\Omega$]}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.6\textwidth]{figuras/NewFile15.png}
+	\caption{Implementación $V_{o}=f(V_{in},R_L)$ con $V_{in}= 2$[V], $R_L=1$[K$\Omega$]}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.6\textwidth]{figuras/NewFile16.png}
+	\caption{Implementación $V_{o}=f(V_{in},R_L)$ con $V_{in}= 2$[V], $R_L=10$[K$\Omega$]}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.6\textwidth]{figuras/NewFile17.png}
+	\caption{Implementación $V_{o}=f(V_{in},R_L)$ con $V_{in}= 1$[V], $R_L=10$[K$\Omega$]}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.6\textwidth]{figuras/NewFile18.png}
+	\caption{Implementación $V_{o}=f(V_{in},R_L)$ con $V_{in}= 0.5$[V], $R_L=10$[K$\Omega$]}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.6\textwidth]{figuras/NewFile19.png}
+	\caption{Implementación $V_{RL}=f(V_{in},R_L)$ con $V_{in}= 0.5$[V], $R_L=1$[K$\Omega$]}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.6\textwidth]{figuras/NewFile20.png}
+	\caption{Implementación $V_{RL}=f(V_{in},R_L)$ con $V_{in}= 1$[V], $R_L=1$[K$\Omega$]}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.6\textwidth]{figuras/NewFile21.png}
+	\caption{Implementación $V_{RL}=f(V_{in},R_L)$ con $V_{in}= 2$[V], $R_L=1$[K$\Omega$]}
+\end{figure}
+
+	A continuación los valores medidos de la tensión de salida respecto a la tensión de entrada y  de un par de valores de $R_L$ propuestos.
+
 \begin{table}[H]
 	\begin{center}
-		\begin{tabular}{| c | c | c | c | c |c |c |}
+		\begin{tabular}{| c | c | c | c | c |}
 			\hline
-			& \multicolumn{3}{ |c| }{Salida $V_o$[V]} &
-			\multicolumn{3}{ |c| }{Errores relativos (\%)} \\ \hline
-			Entrada $V_{in}$[V] & Teoría & Simulación & Experimental & Exp/Teo & Exp/Sim & Sim/Teo \\ \hline
-			0.5  & 0.55 & 0.545	& - & - & - & 0.90 \\
-			1    & 1.1  & 1.093	& - & - & - & 0.63 \\
-			2    & 2.2  & 2.193	& - & - & - & 0.31 \\ \hline
+			\multicolumn{2}{ |c| }{-} &
+			\multicolumn{3}{ |c| }{$V_{in}$[V]} \\ \hline
+			
+			\multicolumn{2}{ |c| }{$V_o$[V]} 
+							 		& 0.5    & 1     & 2   \\ \hline
+			
+ \multirow{2}{*}{$R_L$[K$\Omega$]} 
+			& 1	& 0.486  & 1.16 & 2.28 \\
+			& 10	& 7.43  & 8.71 & 8.72  \\ \hline
+			
 		\end{tabular}
+		\caption{Valores medidos de $V_o$ en función de $R_L$ y de $V_{in}$}
 	\end{center}
 \end{table} 
 
-\subsection{Conclusión}
-Se puede concluir que la herramienta de simulación es bastante precisa, pues el error relativo respecto al valor teórico siempre se mantuvo menor al 1\%.\\
-Ahora bien, el error relativo entre el valor teórico y el experimental es mas grande, aproximadamente (...\%), esto se debe a que los componentes no son ideales y el comportamiento puede variar en un rango acotado indicado por el fabricante.  
+ 
 
  

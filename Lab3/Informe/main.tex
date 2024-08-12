@@ -1,0 +1,64 @@
+\documentclass[a4paper,12pt]{article}
+%--------------Paquetes---------------------------------------------------------
+\usepackage[spanish]{babel}
+\usepackage{tikz}
+\usepackage{setspace}
+\usepackage{eso-pic}
+\usepackage{lipsum}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage[left=25mm, right=25mm, top=35mm, bottom=20mm,headheight=35mm] {geometry}
+\usepackage{lastpage}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{amssymb, amsmath}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{cancel}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=none,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={},
+    pdfpagemode=FullScreen,
+    }
+
+\renewcommand*{\familydefault}{\sfdefault}
+\graphicspath{./figuras/}
+\definecolor{verde}{RGB}{47,97,101}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{2pt}
+\let\oldheadrule\headrule
+\renewcommand{\headrule}{\color{verde}\oldheadrule}
+\lhead{\includegraphics[width=0.45\textwidth]{figuras/color_UNC-FCEFyN}}
+\chead{}
+\rfoot{\proyecto}
+\rhead{}
+%\cfoot{}
+%---------------------------------------------------------------------------
+%declaro "variables"--------------------------------------------------------
+\newcommand{\autor}{Taborda Andrea}
+\newcommand{\proyecto}{Trabajo Práctico de Laboratorio N°3}
+%\newcommand{\fecha}{\today}
+
+%comienzo del documento----------------------------------------------------
+\begin{document}
+	\include{portada.tex}
+	%--------------------------indice-------------------------------------------
+	\cleardoublepage
+	\tableofcontents
+	\cleardoublepage 
+	%---------------------------------------------------------------------------
+	\include{intro}
+    \include{intro_teorica}
+	\include{circuito1}
+	\include{circuito2}
+	\include{circuito3}
+\end{document}
+
+
+

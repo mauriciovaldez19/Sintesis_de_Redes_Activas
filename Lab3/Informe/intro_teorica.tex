@@ -1,0 +1,192 @@
+\newpage
+\section{Introducción teórica:}
+\subsection{Amplificador Realimentado por Tensión (VFA)}
+\hspace{1mm} Un amplificador VFA es un dispositivo electrónico empleado para aumentar la amplitud de señales eléctricas, ya sean voltajes, corrientes o potencias. Su característica principal es que su ganancia y comportamiento de amplificación están determinados principalmente por la retroalimentación de voltaje.
+
+\bigskip 
+\hspace{1mm} En este amplificador, una parte de la señal de salida se toma y se compara con la señal de entrada original utilizando realimentación negativa. La diferencia entre estas dos señales se utiliza para generar una señal de error que se amplifica y luego se utiliza para corregir la señal de salida, manteniendo la amplificación dentro de los límites deseados y estables.
+
+\bigskip 
+\hspace{1mm} La ganancia y las características del amplificador VFA están controladas por los componentes pasivos y activos utilizados en su diseño.
+
+\bigskip
+\begin{figure}[!h]
+    \centering
+    \includegraphics[scale=1]{figuras/2. VFA.png}
+    \caption{VFA}
+\end{figure}
+
+\bigskip
+\hspace{1mm} Este amplificador se representa interiormente por el siguiente modelo.
+
+\bigskip
+\begin{figure}[!h]
+    \centering
+    \includegraphics[scale=1]{figuras/3. VFA Modelo de amplificador real.png}
+    \caption{Modelo del amplificador real}
+\end{figure}
+
+
+\subsection{Amplificador Realimentado por Corriente (CFA)}
+
+\hspace{1mm} Un amplificador CFA es otro tipo de amplificador electrónico utilizado para amplificar señales eléctricas. A diferencia de un amplificador VFA, su ganancia y comportamiento de amplificación están principalmente determinados por la retroalimentación de corriente en lugar de la retroalimentación de voltaje. Su respuesta es más rápida y cuentan con una mayor banda pasante, haciéndolos adecuados para aplicaciones de alta velocidad, como en sistemas de comunicaciones y en ciertos equipos de medición. Sin embargo, también suelen ser más sensibles a la carga y pueden requerir un diseño más cuidadoso para mantener su estabilidad y rendimiento.
+
+\bigskip
+\begin{figure}[!h]
+    \centering
+    \includegraphics[scale=1]{figuras/4. CFA.png}
+    \caption{CFA}
+\end{figure}
+
+
+\subsection{Compensación por Adelanto}
+
+\hspace{1mm} El término \textit{cero-polo}, también conocido como cero en frecuencia (\( f_{zx} \)), se destaca por generar un cero a una frecuencia igual o superior al segundo polo original. Esto tiene como resultado la compensación del retardo causado por este polo a frecuencias inferiores al punto crítico. Simultáneamente, el polo adicional (\( f_{px} \)) se sitúa fuera del rango de frecuencias de interés. En consecuencia, la ganancia de lazo del amplificador compensado puede ser expresada de la siguiente manera:
+
+\bigskip
+\hspace{1mm} Si \( \omega _{o2} \leq \omega _{zx} < \omega _G \) y \( \omega _{pz} \geq \geq \omega _G \)
+
+\begin{equation}
+    A_c (s) = \frac{1 + \frac{s}{\omega _{zx}}}{1 + \frac{s}{\omega _{px}}}
+\end{equation}
+
+\bigskip
+\hspace{1mm} Por lo tanto.
+
+\begin{equation}
+    T'(s) = - \frac{T(0) (1 + \frac{s}{\omega _{zx}})}{(1 + \frac{s}{\omega _{01}})(1 + \frac{s}{\omega _{o2}})}
+\end{equation}
+
+
+\subsection{Red Paralelo Serie}
+
+\bigskip
+\hspace{1mm} Esta red esta compuesta por un capacitor y dos resistencias distribuidas de la siguiente manera.
+
+\bigskip
+\begin{figure}[!h]
+    \centering
+    \includegraphics[scale=1]{figuras/5. Red paralelo serie.png}
+    \caption{Red Paralelo Serie}
+\end{figure}
+
+\begin{equation}
+    A_C (s) = \frac{V_o}{V_{in}} = \left( \frac{R}{R + R} \right) \cdot \frac{1 + sC_x R_x}{1 + sC_x (R_x // R_y)} = A(0) \cdot \frac{1 + s/\omega _{zx}}{1 + s/ \omega _{px}}
+\end{equation}
+
+
+\subsection{Máxima Planicidad de Módulo}
+
+\hspace{1mm}En aplicaciones de alta velocidad y ancho de banda, como procesamiento de señales de video y redes activas, se requieren sistemas realimentados que cumplan estrictos requisitos de ganancia, ancho de banda y distorsión de frecuencia/fase. Para optimizar el rendimiento, los amplificadores deben operar al límite de su capacidad, lo que requiere una coordinación cuidadosa entre la estabilidad del sistema y los requisitos de respuesta. Las especificaciones comunes incluyen minimizar la distorsión de frecuencia y fase en la banda de transmisión y maximizar el producto ganancia-ancho de banda. El análisis busca establecer las relaciones necesarias entre los coeficientes de la ganancia de lazo cerrado para cumplir con estos requisitos en la síntesis del sistema realimentado. Además, se considera que la ganancia del sistema en lazo cerrado presenta dos polos cuyo carácter depende de la cantidad de realimentación introducida y que la red externa al elemento activo se expresa como cociente de polinomios racionales en la variable compleja (s).
+
+\begin{equation}
+    Af(s) =  \frac{V_o}{V_{in}} = \frac{Av (s)}{1 - T(s)} = \frac{N(s)}{D(s)}
+\end{equation}
+
+\bigskip
+\hspace{1mm} Dicha ecuación tiene como límites que el polinomio del denominador es como máximo de segundo grado y el polinomio del numerador no puede exceder el grado del denominador.
+
+\hspace{1mm} Desarrollando dicha fórmula se obtiene la siguiente expresión.
+
+\begin{equation}
+    af(j \Omega) = \frac{(1 - n_2 \Omega ^2) + jn_1 \Omega}{(1 - d_2 \Omega ^2) + jd_1 \Omega}
+\end{equation}
+
+\bigskip
+\hspace{1mm} Tomando módulo se deducen las relaciones que deben cumplir los coeficientes de la GLC para satisfacer la condición de máxima planicidad de módulo en la banda de transmisión.
+
+\begin{equation}
+    |af(\Omega)|^2 = \frac{(1 - n_2 \Omega ^2)^2 + (n_1 \Omega)^2}{(1 - d_2 \Omega ^2)^2 + (d_1 \Omega)^2}
+\end{equation}
+
+\begin{equation}
+    |af(\Omega)|^2 = \frac{1 + a_1 \Omega ^2 + a_2 \Omega^4}{1 + b_1 \Omega ^2 + b_2 \Omega^4} \label{omega}
+\end{equation}
+
+\bigskip
+\hspace{1mm} De la ecuación \ref{omega}, función par en \( \Omega \), se infiere que la condición de invariancia del módulo con la frecuencia exige que los coeficientes de la potencias homólogas sean iguales.
+
+\begin{equation}
+    |af(\Omega)|^2 = Cte \Longrightarrow a_i = b_i \quad para \quad 0 \leq \Omega \leq \infty
+\end{equation}
+
+\bigskip
+\hspace{1mm} La red que satisface esta condición se denomina pasa todo.
+
+\bigskip
+\hspace{1mm} Particularmente interesa profundizar el análisis en el caso en que N(s) sea de grado cero, por lo tanto.
+
+\begin{equation}
+    af(s) = \frac{1}{1 + \frac{s}{Q_p} + s^2}
+\end{equation}
+
+\begin{equation}
+    |af(\Omega )|^2 = \frac{1}{1 + \Omega ^2 \left(\frac{1}{Q_p^2} - 2\right) + \Omega ^4}
+\end{equation}
+
+\bigskip
+\hspace{1mm} Los valores de los coeficientes de esta última, en relación a la expresión general son respectivamente.
+
+\begin{itemize}[itemsep=1pt]
+    \item \( b_1 = \frac{1}{Q_p^2} - 2 \)
+    \item \( b_2 = 1 \)
+    \item \( a_1 = 0 \)
+    \item \( a_2 = 0 \)
+\end{itemize}
+
+\bigskip
+\hspace{1mm} De las cuales, la única que puede satisfacer para máxima planicidad de módulo.
+
+\begin{equation}
+    b_1 = a_1 \Longrightarrow Q_p = \frac{1}{\sqrt{2}}
+\end{equation}
+
+\bigskip
+\hspace{1mm} Si esto se cumple, la expresión del módulo normalizado de la ganancia de lazo cerrado queda.
+
+\begin{equation}
+    |af(\Omega)| = \frac{1}{\sqrt{1 + \Omega ^4}}
+\end{equation}
+
+\bigskip
+\hspace{1mm} La frecuencia de corte de \(3~dB\) deducida resulta.
+
+\begin{equation}
+    \frac{1}{\sqrt{1 + \Omega _H ^4}} = \frac{1}{\sqrt{2}} \Longrightarrow \Omega _H = 1 \Longrightarrow \omega _H = \omega _p
+\end{equation}
+
+\bigskip
+\hspace{1mm} Es importante notar que en la banda de transmisión, la frecuencia normalizada \( \Omega )\) siempre es menor que uno, excepto en el extremo \( \Omega H \). Por lo tanto, el término de la potencia cuarta en la expresión del módulo tiene un impacto mínimo, lo que permite maximizar su planicidad.
+
+\bigskip
+\hspace{1mm} Para evaluar el margen de fase asociado a esta solución, es necesario conocer la ganancia de lazo involucrada.
+
+\begin{equation}
+    Avf (s) = \frac{Avf_i}{1 - \frac{1}{T(s)}} \Longrightarrow af(s) = \frac{1}{1 - \frac{1}{T(s)}} \approxeq \frac{1}{1 + \frac{s}{Q_p} + s^2}
+\end{equation}
+
+\bigskip
+\hspace{1mm} De la cual se deduce la ganancia de lazo en términos normalizados.
+
+\begin{equation}
+    T(s) = - \frac{1}{\frac{s}{Q_p} + s^2} = - \frac{1}{s (s + \frac{1}{Q_p})}
+\end{equation}
+
+\bigskip
+\hspace{1mm} La determinación de la frecuencia del punto crítico se obtiene a partir de la aplicación de la condición de módulo a la ecuación anterior con \( Q_p = 1/\sqrt{2} \)
+
+\begin{equation}
+    |T(\Omega G)| = 1 \Longrightarrow \Omega _G ^4 + \frac{1}{Q_p^2} \cdot \Omega_G^2 - 1 = 0 \Longrightarrow \Omega _G = 0,644
+\end{equation}
+
+\begin{equation}
+    \omega _G = 0,644 \omega _p
+\end{equation}
+
+
+\bigskip
+\hspace{1mm} Finalmente el margen de fase involucrado resulta.
+
+\begin{equation}
+    M \phi = \angle T(\Omega G) + 180 ^o = -90^o - tg^1 ( \Omega _G \cdot Q_p) + 180^o = 65,5^o 
+\end{equation}

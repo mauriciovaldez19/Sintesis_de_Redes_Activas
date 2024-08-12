@@ -147,25 +147,76 @@ Se realizaron diferentes simulaciones con LTSpice para observar el comportamient
 	\end{tabular}
 \end{center}
 \subsection{Implementación}
+Las implementaciones se realizaron en el pañol de electrónica de la Facultad, se utilizó un osciloscopio marca KEYSIGHT. Siempre se midió el valor de la señal de salida con el canal 1 (amarillo) y la señal de entrada con el canal 2 (verde), una fuente partida para alimentar el circuito y un generador de funciones para inyectar señal. 
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.6\textwidth]{figuras/NewFile0.png}
+	\caption{Implementación $V_{o1}=f(V_{1})$ con $V_{1}= 1$[V]}
+\end{figure}
 
-\subsection{Comparación entre resultados}
-En la siguiente tabla comparativa se reflejan los resultados obtenidos en cada una de las etapas previas y se calcula el error relativo que existe entre los resultados.\\
-Tanto para la simulación como para la parte experimental, se ingresó señal por $V_1$
-\begin{table}[H]
-	\begin{center}
-		\begin{tabular}{| c | c | c | c | c |c |c |}
-			\hline
-			& \multicolumn{3}{ |c| }{Salida $Vo_2$[V]} &
-			\multicolumn{3}{ |c| }{Errores relativos (\%)} \\ \hline
-			Entrada $V_1$[V] & Teoría & Simulación & Experimental & Exp/Teo & Exp/Sim & Sim/Teo \\ \hline
-			0.2 & 0.8 & 0.7989	& - & - & - & 0.14 \\
-			0.4 & 1.6 & 1.5973	& - & - & - & 0.17 \\
-			1   &  4  & 3.9974	& - & - & - & 0.06 \\ \hline
-		\end{tabular}
-	\end{center}
-\end{table} 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.6\textwidth]{figuras/NewFile1.png}
+	\caption{Implementación $V_{o1}=f(V_{1})$ con $V_{1}= 3$[V] (satura)}
+\end{figure}
 
-\subsection{Conclusión}
-Se puede concluir que la herramienta de simulación es bastante precisa, pues el error relativo respecto al valor teórico siempre se mantuvo menor al 1\%.\\
-Ahora bien, el error relativo entre el valor teórico y el experimental es mas grande, aproximadamente (...\%), esto se debe a que los componentes no son ideales y el comportamiento puede variar en un rango acotado indicado por el fabricante.  
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.6\textwidth]{figuras/NewFile2.png}
+	\caption{Implementación $V_{o1}=f(V_{1})$ con $V_{1}= 10$[V] (satura)}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.6\textwidth]{figuras/NewFile3.png}
+	\caption{Implementación $V_{o1}=f(V_{2})$ con $V_{2}= 1$[V]}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.6\textwidth]{figuras/NewFile4.png}
+	\caption{Implementación $V_{o1}=f(V_{2})$ con $V_{2}= 3$[V] (satura)}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.6\textwidth]{figuras/NewFile5.png}
+	\caption{Implementación $V_{o1}=f(V_{2})$ con $V_{2}= 10$[V] (satura)}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.6\textwidth]{figuras/NewFile6.png}
+	\caption{Implementación $V_{o1}=f(V_{c})$ con $V_{c}= 1$[V]}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.6\textwidth]{figuras/NewFile7.png}
+	\caption{Implementación $V_{o1}=f(V_{c})$ con $V_{c}= 4.5$[V]}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.6\textwidth]{figuras/NewFile8.png}
+	\caption{Implementación $V_{o1}=f(V_{c})$ con $V_{c}= 10$[V]}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.6\textwidth]{figuras/NewFile10.png}
+	\caption{Implementación $V_{o2}=f(V_{c})$ con $V_{c}= 1$[V]}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.6\textwidth]{figuras/NewFile11.png}
+	\caption{Implementación $V_{o2}=f(V_{c})$ con $V_{c}= 7$[V]}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.6\textwidth]{figuras/NewFile12.png}
+	\caption{Implementación $V_{o2}=f(V_{c})$ con $V_{c}= 10$[V]}
+\end{figure}
